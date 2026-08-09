@@ -10,7 +10,7 @@ app.use(express.json());
 app.use('/api', router);
 
 app.get('/', (_req, res) => {
-  res.send('API server is running!');
+  res.send('GenAI Study Buddy server is running!');
 });
 
 app.use(notFound);
