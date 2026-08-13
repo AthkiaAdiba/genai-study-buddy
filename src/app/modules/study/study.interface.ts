@@ -9,4 +9,5 @@ export type TGenerateStudyResponse = {
   topic: string;
   level: TStudentLevel;
   explanation: string;
+  quiz: string;
 };

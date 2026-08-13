@@ -8,4 +8,6 @@ dotenv.config({
 export default {
   nodeEnv: process.env.NODE_ENV,
   port: process.env.PORT,
+  openaiApiKey: process.env.OPENAI_API_KEY,
+  openRouterApiKey: process.env.OPENROUTER_API_KEY,
 };
