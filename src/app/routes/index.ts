@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import { StudyRoutes } from '../modules/study/study.route';
 import { ChatRoutes } from '../modules/chat/chat.route';
+import { SearchRoutes } from '../modules/search/search.route';
 
 const router = Router();
 
@@ -12,6 +13,10 @@ const moduleRoutes = [
   {
     path: '/chat',
     routes: ChatRoutes,
+  },
+  {
+    path: '/search',
+    routes: SearchRoutes,
   },
 ];
 
